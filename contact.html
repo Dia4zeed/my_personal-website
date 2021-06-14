@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>contact_me</title>
+</head>
+<body class="contactBody">
+    <header>
+        <h3>Please fill in the form to get in contact with me</h3>
+
+        <img class="cloud3" src="./images/cloud.png" alt="Cloud" />
+
+    </header>
+    <main>
+
+        <form action="action.com">
+
+            <!-- Dropdown menue -->
+            <label for="select your title">Select your title</label>
+            <select name="" id="select your title">
+                <option value="">Select</option>
+                <option value="Mr">Mr.</option>
+                <option value="Mrs">Mrs.</option>
+                <option value="Dr">Dr.</option>
+            </select>
+    
+    
+            <!-- Birth date -->
+            <div>
+                <label for="birthDate">Birthdate:</label>
+                <input type="date" name="" id="birthDate">
+            </div>
+    
+            <!-- First Name input -->
+            <div>
+                <label for="fName">First Name</label>
+                <input type="text" name="" id="fName" placeholder="you can type here...">
+            </div>
+    
+            <!-- Last Name input -->
+            <div>
+                <label for="lName">Last Name</label>
+                <input type="text" name="" id="lName">
+            </div>
+    
+            <!-- Email input -->
+            <div>
+                <label for="eMail">Email Adress</label>
+                <input type="email" name="" id="eMail">
+            </div>
+    
+            <!-- Email Confirmation input -->
+            <div>
+                <label for="confEmail">Confirm Email</label>
+                <input type="email" name="" id="confEmail">
+            </div>
+    
+            
+            <!-- Password input -->
+    
+            <div>
+                <label for="passWord">password</label> <span style="color: crimson;">*</span>
+                <input type="password" name="" id="passWord" required>
+            </div>
+    
+            <!-- Password Confirmation -->
+    
+            <div>
+                <label for="passwordConfirmation">confirm passowrd <span style="color: crimson;">*</span></label>
+                <input type="password" name="" id="passwordConfirmation" required>
+            </div>
+    
+    
+           <!-- Gender input -->
+    
+           <div>
+               <span>Select Gender:</span>
+                
+    
+               <input type="radio" name="gender" id="male">
+               <label for="male">Male</label>
+    
+               
+               <input type="radio" name="gender" id="female">
+               <label for="female">Female</label>
+    
+               
+               <input type="radio" name="gender" id="other">
+               <label for="other">other</label>
+           </div>
+    
+           <!-- How did you Hear about us -->
+           <div class="howDidYou">
+            <div>
+            <label for="howDidYouHear">How did you hear about us?</label>
+            </div>
+            <textarea name="" id="howDidYouHear" cols="30" rows="10" placeholder="Write to us here..."></textarea>
+            
+           </div>
+    
+           
+           <!-- Subscribe -->
+                <input type="checkbox" name="subscribe" id="subscribe" checked>
+                <label for="subscribe">subscribe from here</label>
+           
+            <!-- Submit input -->
+    
+            <div>
+                <input type="submit" value="Submit">
+           </div>
+    
+           <p class="required"><span style="color: crimson;">*</span>= required field!</p>
+        </form>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
